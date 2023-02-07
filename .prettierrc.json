@@ -1,0 +1,48 @@
+{
+    "singleQuote": true,
+    "tabWidth": 4,
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "embeddedLanguageFormatting": "auto",
+    "htmlWhitespaceSensitivity": "css",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 120,
+    "proseWrap": "preserve",
+    "quoteProps": "consistent",
+    "requirePragma": false,
+    "semi": true,
+    "trailingComma": "none",
+    "useTabs": false,
+    "parser": "angular",
+    "overrides": [
+        {
+            "files": "*.html",
+            "options": {
+                "singleQuote": false
+            }
+        },
+        {
+            "files": "*.ts",
+            "options": {
+                "parser": "typescript",
+                "jsxBracketSameLine": true
+            }
+        },
+        {
+            "files": "*.js",
+            "options": {
+                "parser": "typescript",
+                "jsxBracketSameLine": true,
+                "singleQuote": false
+            }
+        },
+        {
+            "files": "*.component.scss",
+            "options": {
+                "parser": "scss"
+            }
+        }
+    ]
+}
